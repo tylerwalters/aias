@@ -1,0 +1,20 @@
+{
+	"name": "aias",
+	"author": "Tyler Walters <tyler@tylerwalters.com>",
+	"description": "A standalone AJAX library",
+	"keywords": [
+		"AJAX",
+		"XHR"
+	],
+	"version": "0.0.1",
+	"homepage": "https://github.com/tylerwalters/aias",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tylerwalters/aias.git"
+	},
+	"scripts": {
+		"prepublish": "gulp build",
+		"test": "gulp test"
+	},
+	"main": "src/aias.js"
+}

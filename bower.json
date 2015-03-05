@@ -1,0 +1,22 @@
+{
+	"name": "aias",
+	"version": "0.0.1",
+	"authors": [
+		"Tyler Walters <tyler@tylerwalters.com>"
+	],
+	"description": "A standalone AJAX library",
+	"main": "src/aias.js",
+	"keywords": [
+		"AJAX",
+		"XHR"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/tylerwalters/aias",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
