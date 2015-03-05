@@ -33,10 +33,14 @@ bower install aias
 aias.get('/endpoint')
   .then(function (data, xhr) {
 
-  }
+  })
   .error(function (data, xhr) {
 
   });
 ```
 
 ### aias.post()
+
+## License
+
+This is free software distributed under the MIT License.
