@@ -10,7 +10,7 @@ A standalone AJAX library.
 Download the [latest aias release](https://github.com/tylerwalters/aias) and load using a script tag:
 
 ```html
-<script src="aias.min.js"></script>
+<script src="dist/aias.min.js"></script>
 ```
 
 or install with [npm](https://www.npmjs.org/):
