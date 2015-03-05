@@ -32,10 +32,7 @@ bower install aias
 ```JavaScript
 aias.get('/endpoint')
   .then(function (data, xhr) {
-
-  })
-  .error(function (data, xhr) {
-
+    console.log(data);
   });
 ```
 
