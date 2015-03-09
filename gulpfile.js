@@ -9,10 +9,12 @@ gulp.task('lint', function () {
 });
 
 gulp.task('min', function () {
-	var uglify = require('gulp-uglify');
+	var uglify = require('gulp-uglify'),
+			concat = require('gulp-concat');
 
 	return gulp.src('src/aias.js')
 		.pipe(uglify())
+		.concat('aias.min.js')
 		.pipe(gulp.dest('dist'));
 });
 
