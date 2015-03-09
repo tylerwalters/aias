@@ -45,7 +45,7 @@ aias.post(url[, data])
 ```
 
 ```JavaScript
-aias.get('/endpoint', {"name": "Bill", "age": 64})
+aias.post('/endpoint', {"name": "Bill", "age": 64})
   .then(function (response) {
     console.log(response);
   });
