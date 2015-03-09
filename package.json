@@ -1,33 +1,33 @@
 {
-  "name": "aias",
-  "author": "Tyler Walters <tyler@tylerwalters.com>",
-  "description": "A standalone AJAX library using JavaScript promises",
-  "keywords": [
-    "AJAX",
-    "XHR"
-  ],
-  "version": "1.0.1",
-  "homepage": "https://github.com/tylerwalters/aias",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tylerwalters/aias.git"
-  },
-  "scripts": {
-    "prepublish": "gulp",
-    "test": "gulp test"
-  },
-  "main": "dist/aias.js",
-  "dependencies": {
-    "promise": "^6.1.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-uglify": "^1.1.0",
-    "gulp-jshint": "^1.9.2",
-    "gulp-mocha": "^2.0.0",
-    "jshint-stylish": "^1.0.1",
-    "mocha": "^2.2.1",
-    "chai": "^2.1.1",
-    "gulp-concat": "^2.5.2"
-  }
+	"name": "aias",
+	"version": "1.0.2",
+	"author": "Tyler Walters <tyler@tylerwalters.com>",
+	"description": "A standalone AJAX library using JavaScript promises",
+	"keywords": [
+		"AJAX",
+		"XHR"
+	],
+	"homepage": "https://github.com/tylerwalters/aias",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tylerwalters/aias.git"
+	},
+	"scripts": {
+		"prepublish": "gulp",
+		"test": "gulp test"
+	},
+	"main": "dist/aias.min.js",
+	"dependencies": {
+		"promise": "^6.1.0"
+	},
+	"devDependencies": {
+		"gulp": "^3.8.11",
+		"gulp-uglify": "^1.1.0",
+		"gulp-jshint": "^1.9.2",
+		"gulp-mocha": "^2.0.0",
+		"jshint-stylish": "^1.0.1",
+		"mocha": "^2.2.1",
+		"chai": "^2.1.1",
+		"gulp-concat": "^2.5.2"
+	}
 }

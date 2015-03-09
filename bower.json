@@ -1,25 +1,25 @@
 {
-  "name": "aias",
-  "version": "1.0.1",
-  "authors": [
-    "Tyler Walters <tyler@tylerwalters.com>"
-  ],
-  "description": "A standalone AJAX library using JavaScript promises",
-  "main": "dist/aias.js",
-  "keywords": [
-    "ajax",
-    "xhr"
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/tylerwalters/aias",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "promise": "~0.2.2"
-  }
+	"name": "aias",
+	"version": "1.0.2",
+	"authors": [
+		"Tyler Walters <tyler@tylerwalters.com>"
+	],
+	"description": "A standalone AJAX library using JavaScript promises",
+	"main": "dist/aias.min.js",
+	"keywords": [
+		"ajax",
+		"xhr"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/tylerwalters/aias",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"promise": "~0.2.2"
+	}
 }
