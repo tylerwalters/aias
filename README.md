@@ -1,7 +1,7 @@
 aias
 ====
 
-A standalone AJAX library.
+A standalone AJAX library using JavaScript promises.
 
 ## Installation
 
@@ -35,7 +35,7 @@ aias.get(url)
 
 ```JavaScript
 aias.get('/endpoint')
-  .then(function (response, xhr) {
+  .then(function (response) {
     console.log(response);
   });
 ```
@@ -48,7 +48,7 @@ aias.post(url[, data])
 
 ```JavaScript
 aias.get('/endpoint', {"name": "Bill", "age": 64})
-  .then(function (response, xhr) {
+  .then(function (response) {
     console.log(response);
   });
 ```
@@ -61,7 +61,7 @@ aias.put(url[, data])
 
 ```JavaScript
 aias.put('/endpoint', {"name": "Bill", "age": 64})
-  .then(function (response, xhr) {
+  .then(function (response) {
     console.log(response);
   });
 ```
@@ -74,7 +74,7 @@ aias.delete(url)
 
 ```JavaScript
 aias.delete('/endpoint')
-  .then(function (response, xhr) {
+  .then(function (response) {
     console.log(response);
   });
 ```
