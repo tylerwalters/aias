@@ -5,9 +5,7 @@ A standalone AJAX library using JavaScript promises.
 
 ## Installation
 
-**Not yet available.**
-
-Download the [latest aias release](https://github.com/tylerwalters/aias) and load using a script tag:
+Download the [latest aias release](https://github.com/tylerwalters/aias/releases/latest) and load using a script tag:
 
 ```html
 <script src="dist/aias.min.js"></script>
