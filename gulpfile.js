@@ -13,8 +13,9 @@ gulp.task('min', function () {
 			concat = require('gulp-concat');
 
 	return gulp.src('src/aias.js')
+		.pipe(gulp.dest('dist'))
 		.pipe(uglify())
-		.concat('aias.min.js')
+		.pipe(concat('aias.min.js'))
 		.pipe(gulp.dest('dist'));
 });
 
