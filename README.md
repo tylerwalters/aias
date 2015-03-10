@@ -96,12 +96,19 @@ aias.delete('/endpoint')
 ## Version History
 
 **1.2.0:** Removing reliance on *window*.
+
 **1.1.2:** Adding JSDoc-style comments.
+
 **1.1.1:** Updating documentation.
+
 **1.1.0:** Adding request to output.
+
 **1.0.3:** Fixing bug with missing var statement.
+
 **1.0.2:** Updating minification output to aias.min.js.
+
 **1.0.1:** Updating documentation.
+
 **1.0.0:** Initial release.
 
 ## License
