@@ -18,7 +18,6 @@
 	* @memberof aias
 	*/
 	function prepareResponse (res) {
-		console.log(res);
 		try {
 			return JSON.parse(res);
 		}
