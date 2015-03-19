@@ -1,6 +1,6 @@
 {
 	"name": "aias",
-	"version": "1.2.0",
+	"version": "1.1.2",
 	"author": "Tyler Walters <tyler@tylerwalters.com>",
 	"description": "A standalone AJAX library using JavaScript promises",
 	"keywords": [

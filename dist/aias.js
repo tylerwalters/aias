@@ -4,7 +4,7 @@
 	* @namespace aias
 	*/
 
-(function (context) {
+(function () {
 	'use strict';
 
 	var Promise = (typeof module !== 'undefined' && module.exports) ? require('promise') : context.Promise,
@@ -18,7 +18,6 @@
 	* @memberof aias
 	*/
 	function prepareResponse (res) {
-		console.log(res);
 		try {
 			return JSON.parse(res);
 		}
@@ -39,7 +38,7 @@
 	function request (type, url, data) {
 		return new Promise(function (fulfill, reject) {
 			// Set ajax to correct XHR type. Source: https://gist.github.com/jed/993585
-			var Xhr = context.XMLHttpRequest||ActiveXObject,
+			var Xhr = window.XMLHttpRequest||ActiveXObject,
 					req = new Xhr('MSXML2.XMLHTTP.3.0');
 
 			req.open(type, url, true);
@@ -51,7 +50,7 @@
 						fulfill(res, req);
 					}
 					else {
-						reject(new Error('Request responded with status ' + req.status));
+						reject(new Error('Request responded with status ' + req.statusText));
 					}
 				}
 			};
@@ -117,6 +116,6 @@
 	}
 	// Global library
 	else {
-		context.aias = aias;
+		this.aias = aias;
 	}
-})(this);
+}).call(window);
