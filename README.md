@@ -33,8 +33,8 @@ aias.get(url)
 
 ```JavaScript
 aias.get('/endpoint')
-  .then(function (response) {
-    console.log(response);
+  .then(function (res, req) {
+    console.log(res);
   });
 ```
 
@@ -46,8 +46,8 @@ aias.post(url[, data])
 
 ```JavaScript
 aias.post('/endpoint', {"name": "Bill", "age": 64})
-  .then(function (response) {
-    console.log(response);
+  .then(function (res, req) {
+    console.log(res);
   });
 ```
 
@@ -59,8 +59,8 @@ aias.put(url[, data])
 
 ```JavaScript
 aias.put('/endpoint', {"name": "Bill", "age": 64})
-  .then(function (response) {
-    console.log(response);
+  .then(function (res, req) {
+    console.log(res);
   });
 ```
 
@@ -72,8 +72,8 @@ aias.delete(url)
 
 ```JavaScript
 aias.delete('/endpoint')
-  .then(function (response) {
-    console.log(response);
+  .then(function (res, req) {
+    console.log(res);
   });
 ```
 
