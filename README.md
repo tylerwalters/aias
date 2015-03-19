@@ -27,72 +27,57 @@ bower install aias
 
 ### aias.get()
 
-#### Syntax
-
 ```JavaScript
 aias.get(url)
 ```
 
-#### Example
-
 ```JavaScript
 aias.get('/endpoint')
-  .then(function (res, req) {
-    console.log(res);
+  .then(function (response) {
+    console.log(response);
   });
 ```
 
 ### aias.post()
 
-#### Syntax
-
 ```JavaScript
 aias.post(url[, data])
 ```
 
-#### Example
-
 ```JavaScript
 aias.post('/endpoint', {"name": "Bill", "age": 64})
-  .then(function (res, req) {
-    console.log(res);
+  .then(function (response) {
+    console.log(response);
   });
 ```
 
 ### aias.put()
 
-#### Syntax
-
 ```JavaScript
 aias.put(url[, data])
 ```
 
-#### Example
-
 ```JavaScript
 aias.put('/endpoint', {"name": "Bill", "age": 64})
-  .then(function (res, req) {
-    console.log(res);
+  .then(function (response) {
+    console.log(response);
   });
 ```
 
 ### aias.delete()
 
-#### Syntax
-
 ```JavaScript
 aias.delete(url)
 ```
 
-#### Example
-
 ```JavaScript
 aias.delete('/endpoint')
-  .then(function (res, req) {
-    console.log(res);
+  .then(function (response) {
+    console.log(response);
   });
 ```
 
+<<<<<<< HEAD
 ## Version History
 
 **1.2.0:** Removing reliance on *window*.
@@ -111,6 +96,8 @@ aias.delete('/endpoint')
 
 **1.0.0:** Initial release.
 
+=======
+>>>>>>> parent of 8df6c3b... Updating documentation, adding version history
 ## License
 
 This is free software distributed under the MIT License.
