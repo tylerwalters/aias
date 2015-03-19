@@ -77,10 +77,7 @@ aias.delete('/endpoint')
   });
 ```
 
-<<<<<<< HEAD
 ## Version History
-
-**1.2.0:** Removing reliance on *window*.
 
 **1.1.2:** Adding JSDoc-style comments.
 
@@ -96,8 +93,6 @@ aias.delete('/endpoint')
 
 **1.0.0:** Initial release.
 
-=======
->>>>>>> parent of 8df6c3b... Updating documentation, adding version history
 ## License
 
 This is free software distributed under the MIT License.
